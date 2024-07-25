@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kholm Gates</key>
+	<dict>
+		<key>Coordinates</key>
+		<string>52°0812262°N 23°6564016°E</string>
+		<key>Icon</key>
+		<string>001</string>
+		<key>Description</key>
+		<string>The Kholm Gate is a gate of the citadel of Brest Fortress in Brest, Belarus. Originally built in the 19th century during Russian rule, as one of the four fortified gatehouses, leading into the Citadel of the Russian Brest Fortress.</string>
+		<key>Name</key>
+		<string>Kholm gates</string>
+	</dict>
+	<key>Thirst</key>
+	<dict>
+		<key>Icon</key>
+		<string>004</string>
+		<key>Name</key>
+		<string>Thirst</string>
+		<key>Coordinates</key>
+		<string>52°4&apos;58&quot;N   23°39&apos;35&quot;E</string>
+		<key>Description</key>
+		<string>&quot;Thirst&quot;, a large monument depicting an injured soldier trying to get some water from the river. The monument reflects the bravery of the last remaining soldiers who defended the Fortress for many days without food or water.&quot;Thirst&quot;, a large monument depicting an injured soldier trying to get some water from the river. The monument reflects the bravery of the last remaining soldiers who defended the Fortress for many days without food or water.
+
+
+
+&quot;Thirst&quot;, a large monument depicting an injured soldier trying to get some water from the river. The monument reflects the bravery of the last remaining soldiers who defended the Fortress for many days without food or water.
+
+</string>
+	</dict>
+	<key>Main entrance</key>
+	<dict>
+		<key>Icon</key>
+		<string>002</string>
+		<key>Name</key>
+		<string>Main entrance</string>
+		<key>Coordinates</key>
+		<string> 52°3&apos;59&quot;N   23°71&apos;16&quot;E</string>
+		<key>Description</key>
+		<string>The main entrance to the memorial is made in the form of a huge star. Here you will hear A. Alexandrov’s song “Sacred War” and the radio announcement on the beginning of the war</string>
+	</dict>
+	<key>Courage monument</key>
+	<dict>
+		<key>Icon</key>
+		<string>003</string>
+		<key>Name</key>
+		<string>Courage monument</string>
+		<key>Coordinates</key>
+		<string> 52°4&apos;59&quot;N   23°39&apos;16&quot;E</string>
+		<key>Description</key>
+		<string>The Courage monument stands 33.5m high and tells the story of the heroic defence of the fortress through a series of carvings.</string>
+	</dict>
+</dict>
+</plist>

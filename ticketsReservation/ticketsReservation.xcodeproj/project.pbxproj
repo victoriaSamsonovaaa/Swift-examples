@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF9E1DD62BF399E200DEE187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E1DD52BF399E200DEE187 /* AppDelegate.swift */; };
+		AF9E1DD82BF399E200DEE187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E1DD72BF399E200DEE187 /* SceneDelegate.swift */; };
+		AF9E1DDA2BF399E200DEE187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E1DD92BF399E200DEE187 /* ViewController.swift */; };
+		AF9E1DDD2BF399E200DEE187 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF9E1DDC2BF399E200DEE187 /* Base */; };
+		AF9E1DDF2BF399E400DEE187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9E1DDE2BF399E400DEE187 /* Assets.xcassets */; };
+		AF9E1DE22BF399E400DEE187 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF9E1DE12BF399E400DEE187 /* Base */; };
+		AF9E1DEE2BF39C4300DEE187 /* flight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF9E1DEC2BF39C4300DEE187 /* flight.xcdatamodeld */; };
+		AF9E1DF12BF39C9A00DEE187 /* Flight+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E1DEF2BF39C9A00DEE187 /* Flight+CoreDataClass.swift */; };
+		AF9E1DF22BF39C9A00DEE187 /* Flight+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E1DF02BF39C9A00DEE187 /* Flight+CoreDataProperties.swift */; };
+		AF9E1DF42BF39D9C00DEE187 /* flightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E1DF32BF39D9C00DEE187 /* flightCell.swift */; };
+		AF9E1DF62BF39EA200DEE187 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E1DF52BF39EA200DEE187 /* LocationManager.swift */; };
+		AFED57082BF60FA5002FE057 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AFED57072BF60FA5002FE057 /* Localizable.xcstrings */; };
+		AFED570C2BF6855E002FE057 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED570B2BF6855D002FE057 /* Weather.swift */; };
+		AFED570E2BF68587002FE057 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED570D2BF68587002FE057 /* WeatherGetter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF258ED52BF51F27001E192B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		AF258ED62BF51F27001E192B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AF258ED72BF51F41001E192B /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/Main.strings; sourceTree = "<group>"; };
+		AF258ED82BF51F41001E192B /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AF258ED92BF51F94001E192B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		AF258EDA2BF51F94001E192B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AF9E1DD22BF399E200DEE187 /* ticketsReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticketsReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9E1DD52BF399E200DEE187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF9E1DD72BF399E200DEE187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF9E1DD92BF399E200DEE187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF9E1DDC2BF399E200DEE187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF9E1DDE2BF399E400DEE187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF9E1DE12BF399E400DEE187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF9E1DE32BF399E400DEE187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9E1DED2BF39C4300DEE187 /* flight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = flight.xcdatamodel; sourceTree = "<group>"; };
+		AF9E1DEF2BF39C9A00DEE187 /* Flight+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flight+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AF9E1DF02BF39C9A00DEE187 /* Flight+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flight+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AF9E1DF32BF39D9C00DEE187 /* flightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flightCell.swift; sourceTree = "<group>"; };
+		AF9E1DF52BF39EA200DEE187 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AFED57072BF60FA5002FE057 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		AFED570B2BF6855D002FE057 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		AFED570D2BF68587002FE057 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF9E1DCF2BF399E200DEE187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF9E1DC92BF399E200DEE187 = {
+			isa = PBXGroup;
+			children = (
+				AFED57072BF60FA5002FE057 /* Localizable.xcstrings */,
+				AF9E1DD42BF399E200DEE187 /* ticketsReservation */,
+				AF9E1DD32BF399E200DEE187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF9E1DD32BF399E200DEE187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E1DD22BF399E200DEE187 /* ticketsReservation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF9E1DD42BF399E200DEE187 /* ticketsReservation */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E1DD52BF399E200DEE187 /* AppDelegate.swift */,
+				AF9E1DD72BF399E200DEE187 /* SceneDelegate.swift */,
+				AF9E1DD92BF399E200DEE187 /* ViewController.swift */,
+				AFED570B2BF6855D002FE057 /* Weather.swift */,
+				AFED570D2BF68587002FE057 /* WeatherGetter.swift */,
+				AF9E1DF52BF39EA200DEE187 /* LocationManager.swift */,
+				AF9E1DDB2BF399E200DEE187 /* Main.storyboard */,
+				AF9E1DF32BF39D9C00DEE187 /* flightCell.swift */,
+				AF9E1DDE2BF399E400DEE187 /* Assets.xcassets */,
+				AF9E1DE02BF399E400DEE187 /* LaunchScreen.storyboard */,
+				AF9E1DE32BF399E400DEE187 /* Info.plist */,
+				AF9E1DEF2BF39C9A00DEE187 /* Flight+CoreDataClass.swift */,
+				AF9E1DF02BF39C9A00DEE187 /* Flight+CoreDataProperties.swift */,
+				AF9E1DEC2BF39C4300DEE187 /* flight.xcdatamodeld */,
+			);
+			path = ticketsReservation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF9E1DD12BF399E200DEE187 /* ticketsReservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9E1DE62BF399E400DEE187 /* Build configuration list for PBXNativeTarget "ticketsReservation" */;
+			buildPhases = (
+				AF9E1DCE2BF399E200DEE187 /* Sources */,
+				AF9E1DCF2BF399E200DEE187 /* Frameworks */,
+				AF9E1DD02BF399E200DEE187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ticketsReservation;
+			productName = ticketsReservation;
+			productReference = AF9E1DD22BF399E200DEE187 /* ticketsReservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF9E1DCA2BF399E200DEE187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AF9E1DD12BF399E200DEE187 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AF9E1DCD2BF399E200DEE187 /* Build configuration list for PBXProject "ticketsReservation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				be,
+				ru,
+			);
+			mainGroup = AF9E1DC92BF399E200DEE187;
+			productRefGroup = AF9E1DD32BF399E200DEE187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF9E1DD12BF399E200DEE187 /* ticketsReservation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF9E1DD02BF399E200DEE187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E1DDF2BF399E400DEE187 /* Assets.xcassets in Resources */,
+				AFED57082BF60FA5002FE057 /* Localizable.xcstrings in Resources */,
+				AF9E1DE22BF399E400DEE187 /* Base in Resources */,
+				AF9E1DDD2BF399E200DEE187 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF9E1DCE2BF399E200DEE187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9E1DDA2BF399E200DEE187 /* ViewController.swift in Sources */,
+				AFED570E2BF68587002FE057 /* WeatherGetter.swift in Sources */,
+				AF9E1DEE2BF39C4300DEE187 /* flight.xcdatamodeld in Sources */,
+				AF9E1DF12BF39C9A00DEE187 /* Flight+CoreDataClass.swift in Sources */,
+				AF9E1DF22BF39C9A00DEE187 /* Flight+CoreDataProperties.swift in Sources */,
+				AFED570C2BF6855E002FE057 /* Weather.swift in Sources */,
+				AF9E1DF62BF39EA200DEE187 /* LocationManager.swift in Sources */,
+				AF9E1DD62BF399E200DEE187 /* AppDelegate.swift in Sources */,
+				AF9E1DD82BF399E200DEE187 /* SceneDelegate.swift in Sources */,
+				AF9E1DF42BF39D9C00DEE187 /* flightCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF9E1DDB2BF399E200DEE187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9E1DDC2BF399E200DEE187 /* Base */,
+				AF258ED52BF51F27001E192B /* es */,
+				AF258ED72BF51F41001E192B /* be */,
+				AF258ED92BF51F94001E192B /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF9E1DE02BF399E400DEE187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9E1DE12BF399E400DEE187 /* Base */,
+				AF258ED62BF51F27001E192B /* es */,
+				AF258ED82BF51F41001E192B /* be */,
+				AF258EDA2BF51F94001E192B /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF9E1DE42BF399E400DEE187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF9E1DE52BF399E400DEE187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9E1DE72BF399E400DEE187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ticketsReservation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.ticketsReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF9E1DE82BF399E400DEE187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ticketsReservation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.ticketsReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF9E1DCD2BF399E200DEE187 /* Build configuration list for PBXProject "ticketsReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E1DE42BF399E400DEE187 /* Debug */,
+				AF9E1DE52BF399E400DEE187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9E1DE62BF399E400DEE187 /* Build configuration list for PBXNativeTarget "ticketsReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9E1DE72BF399E400DEE187 /* Debug */,
+				AF9E1DE82BF399E400DEE187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF9E1DEC2BF39C4300DEE187 /* flight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF9E1DED2BF39C4300DEE187 /* flight.xcdatamodel */,
+			);
+			currentVersion = AF9E1DED2BF39C4300DEE187 /* flight.xcdatamodel */;
+			path = flight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF9E1DCA2BF399E200DEE187 /* Project object */;
+}

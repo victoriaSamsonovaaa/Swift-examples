@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "DjV-jy-DM1"; */
+"DjV-jy-DM1.text" = "Precio:";
+
+/* Class = "UIButton"; configuration.title = "Find tickets"; ObjectID = "MwB-GI-rMJ"; */
+"MwB-GI-rMJ.configuration.title" = "Buscar entradas";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MwB-GI-rMJ"; */
+"MwB-GI-rMJ.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Input 'from' city"; ObjectID = "QwT-vh-sbe"; */
+"QwT-vh-sbe.placeholder" = "Ciudad de salida";
+
+/* Class = "UILabel"; text = "Company:"; ObjectID = "VmA-PK-eu5"; */
+"VmA-PK-eu5.text" = "Compañía:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bNi-z2-IYz"; */
+"bNi-z2-IYz.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Input 'to' city"; ObjectID = "iyU-W5-7Ei"; */
+"iyU-W5-7Ei.placeholder" = "Ciudad de destino";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "r8L-WI-HIS"; */
+"r8L-WI-HIS.text" = "Label";
+
+/* Class = "UILabel"; text = "Duration:"; ObjectID = "sn4-LF-iPc"; */
+"sn4-LF-iPc.text" = "Duración:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uZM-PH-My0"; */
+"uZM-PH-My0.text" = "Label";
